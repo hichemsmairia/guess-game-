@@ -1,0 +1,30 @@
+.guessarea {
+ 
+   height: 20px;
+  
+   width: 190px;
+
+ 
+}
+			.center {
+ 
+   
+   left: 35%;
+   position: absolute;
+   top: 30%;
+   
+   
+
+ 
+}
+
+
+.wrapper {
+    text-align: center;
+}
+
+.police 
+{
+	color: red ;
+	
+}

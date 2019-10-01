@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" href="guess_the_number.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<title>
+		the game 
+	</title>
+</head>
+<body background="gamebg.jpg ">
+	<link rel="stylesheet" type="text/css" href="guess_the_number.css">
+	<div class="wrapper">
+			<h1 class="police"> our number is formed by 2 digits </h1>
+
+	<input type="number" id="number" class="guessarea" placeholder="guess the number ">
+	<input type="button" class="btn btn-primary" value="try it !" onclick="randnumber()">
+	</div>
+<script type="text/javascript">
+	var x = Math.floor((Math.random() * 100) + 1);
+	var z = 1000 ;
+	function randnumber() {
+		
+		var y = document.getElementById("number").value;
+		 
+		 
+if (x>y) 
+{
+	alert("more then") ; 
+	z=z-10 ;
+	 
+}
+
+else 
+if (x<y) 
+{
+	alert("less then") ;
+	z=z-10 ;
+	 
+}
+else
+     alert ( "you win ! your score is " + z ) ;
+}
+
+
+
+</script>
+</body>
+</html>
